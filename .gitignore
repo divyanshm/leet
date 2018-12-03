@@ -1,0 +1,11 @@
+# Build log files which may be found in the source tree
+*.log
+*.wrn
+*.err
+*.binlog
+
+# Ignore Visual Studio cache folders at any location in the source tree
+.vs/
+
+Leetcode/bin
+Leetcode/obj
