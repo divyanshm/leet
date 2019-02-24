@@ -52,6 +52,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="LinkedList\ReorderListProblem.cs" />
     <Compile Include="LinkedList\SpliListToPartsProblem.cs" />
+    <Compile Include="Random\TwoSumProblem.cs" />
     <Compile Include="Strings\PermutationInStringProblem.cs" />
     <Compile Include="Trees\GreaterTreeProblem.cs" />
     <Compile Include="Trees\LeastCommonAncestor.cs" />
