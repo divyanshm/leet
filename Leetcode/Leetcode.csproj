@@ -43,10 +43,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LinkedList\AddLists.cs" />
+    <Compile Include="LinkedList\IsPalindromeProblem.cs" />
     <Compile Include="LinkedList\ListNode.cs" />
     <Compile Include="LinkedList\MergedListsProblem.cs" />
     <Compile Include="LinkedList\NumComponentsProblem.cs" />
     <Compile Include="LinkedList\PartitionListProblem.cs" />
+    <Compile Include="LinkedList\RemoveListValue.cs" />
     <Compile Include="LinkedList\ReverseListProblem.cs" />
     <Compile Include="LinkedList\RotateRightProblem.cs" />
     <Compile Include="Program.cs" />
