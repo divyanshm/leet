@@ -56,6 +56,7 @@
     <Compile Include="LinkedList\ReorderListProblem.cs" />
     <Compile Include="LinkedList\SpliListToPartsProblem.cs" />
     <Compile Include="Random\KDiffPair.cs" />
+    <Compile Include="Random\PartitionLabelsProblem.cs" />
     <Compile Include="Random\TwoSumProblem.cs" />
     <Compile Include="Strings\PermutationInStringProblem.cs" />
     <Compile Include="Trees\GreaterTreeProblem.cs" />
