@@ -55,7 +55,7 @@ namespace Leetcode
 
             //var isIncluded = new PermutationInStringProblem().CheckInclusion("adc", "dcda");
 
-            var nums = new int[]
+            /*var nums = new int[]
             {
                 230, 863, 916, 585, 981, 404, 316, 785, 88, 12, 70, 435, 384, 778, 887, 755, 740, 337, 86, 92, 325, 422,
                 815, 650, 920, 125, 277, 336, 221, 847, 168, 23, 677, 61, 400, 136, 874, 363, 394, 199, 863, 997, 794,
@@ -64,7 +64,9 @@ namespace Leetcode
                 365, 430, 803, 59, 858, 538, 427, 583, 368, 375, 173, 809, 896, 370, 789
             };
 
-            var sol = new TwoSumProblem().TwoSum(nums.ToArray(), 9);
+            var sol = new TwoSumProblem().TwoSum(nums.ToArray(), 9);*/
+
+            var answer = new PartitionLabelsProblem().PartitionLabels("aebbedaddc");
         }
     }
 }
