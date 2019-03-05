@@ -66,7 +66,7 @@ namespace Leetcode
 
             var sol = new TwoSumProblem().TwoSum(nums.ToArray(), 9);*/
 
-            var answer = new PartitionLabelsProblem().PartitionLabels("aebbedaddc");
+            var answer = new StoneGameProblem().StoneGame(new[] { 3, 7, 2, 3 });
         }
     }
 }
