@@ -1,6 +1,7 @@
-﻿using System;
-namespace Leetcode.Trees
+﻿namespace Leetcode.Trees
 {
+    // Q. 654, Medium
+    // https://leetcode.com/problems/maximum-binary-tree/
     class MaximumBinaryTree
     {
         public TreeNode ConstructMaximumBinaryTree(int[] nums)

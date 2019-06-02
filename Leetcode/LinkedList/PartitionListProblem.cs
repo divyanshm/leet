@@ -4,12 +4,7 @@
     {
         public ListNode Partition(ListNode head, int x)
         {
-            if (head == null)
-            {
-                return null;
-            }
-
-            if (head.next == null)
+            if (head?.next == null)
             {
                 return head;
             }

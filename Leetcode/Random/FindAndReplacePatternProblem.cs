@@ -17,7 +17,7 @@ namespace Leetcode.Random
                 if(item.Length == patternLength)
                 {
                     var transformedWord = TransformToPrimitive(item);
-                    if(string.Equals(transformedWord, mappedPattern))
+                    if(transformedWord.Equals(mappedPattern))
                     {
                         result.Add(item);
                     }
@@ -27,7 +27,7 @@ namespace Leetcode.Random
             return result.ToArray();
         }
 
-        private string TransformToPrimitive(string pattern)
+        private StringBuilder TransformToPrimitive(string pattern)
         {
             var currentChar = 'a';
             var characterMapping = new Dictionary<char, char>();
@@ -49,7 +49,7 @@ namespace Leetcode.Random
                 transformed.Append(mappedCharacter);
             }
 
-            return transformed.ToString();
+            return transformed;
         }
     }
 }
