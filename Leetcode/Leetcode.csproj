@@ -57,10 +57,13 @@
     <Compile Include="LinkedList\SpliListToPartsProblem.cs" />
     <Compile Include="Random\FindAndReplacePatternProblem.cs" />
     <Compile Include="Random\KDiffPair.cs" />
+    <Compile Include="Random\KeysAndRooms.cs" />
     <Compile Include="Random\PartitionLabelsProblem.cs" />
     <Compile Include="Random\StoneGameProblem.cs" />
     <Compile Include="Random\TwoSumProblem.cs" />
     <Compile Include="Strings\PermutationInStringProblem.cs" />
+    <Compile Include="Trees\BinaryTreeInsert.cs" />
+    <Compile Include="Trees\GreaterSumTreeProblem.cs" />
     <Compile Include="Trees\GreaterTreeProblem.cs" />
     <Compile Include="Trees\LeastCommonAncestor.cs" />
     <Compile Include="Trees\MaximumBinaryTree.cs" />
