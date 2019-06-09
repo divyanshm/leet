@@ -43,9 +43,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LinkedList\AddLists.cs" />
+    <Compile Include="LinkedList\FlattenDoublyLinkedList.cs" />
     <Compile Include="LinkedList\IsPalindromeProblem.cs" />
     <Compile Include="LinkedList\ListNode.cs" />
     <Compile Include="LinkedList\MergedListsProblem.cs" />
+    <Compile Include="LinkedList\Node.cs" />
     <Compile Include="LinkedList\NumComponentsProblem.cs" />
     <Compile Include="LinkedList\PartitionListProblem.cs" />
     <Compile Include="LinkedList\RemoveListValue.cs" />
@@ -71,6 +73,7 @@
     <Compile Include="Trees\QuadTreeProblem.cs" />
     <Compile Include="Trees\SymmetricTreeProblem.cs" />
     <Compile Include="Trees\TreeNode.cs" />
+    <Compile Include="Trees\TreePruning.cs" />
     <Compile Include="Trees\TreeTiltProblem.cs" />
     <Compile Include="Trees\TrimBinarySearchTree.cs" />
   </ItemGroup>
